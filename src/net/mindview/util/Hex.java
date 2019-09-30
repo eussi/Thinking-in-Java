@@ -20,7 +20,7 @@ public class Hex {
     if(args.length == 0)
       // Test by displaying this class file:
       System.out.println(
-        format(BinaryFile.read("Hex.class")));
+        format(BinaryFile.read("out/production/Thinking-in-Java/net/mindview/util/Hex.class")));
     else
       System.out.println(
         format(BinaryFile.read(new File(args[0]))));
