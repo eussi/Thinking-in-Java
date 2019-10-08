@@ -8,6 +8,7 @@ public class ClassCasts {
     Building b = new House();
     Class<House> houseType = House.class;
     House h = houseType.cast(b);
+
     h = (House)b; // ... or just do this.
   }
 } ///:~
